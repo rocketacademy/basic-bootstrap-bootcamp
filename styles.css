@@ -1,3 +1,187 @@
-body{
-  background-color:pink;
+body {
+  background-color: white;
+}
+
+#main-header {
+  padding: 20px;
+  background-color: white;
+}
+
+.nav-link {
+  background-color: white;
+  width: 100%;
+}
+
+#logo {
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo img {
+  width: 30px;
+  height: 30px;
+}
+
+#logo p {
+  margin-bottom: 0;
+  padding-left: 5px;
+}
+
+#signout {
+  display: flex;
+  justify-content: center;
+}
+
+#signout p {
+  padding: 5px;
+  margin-bottom: 0;
+  color: black;
+}
+
+#second-header {
+  background-color: cornsilk;
+  margin-top: 80px;
+  padding: 0;
+}
+
+#second-header .container {
+  display: flex;
+  padding: 10px 0;
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.creativity {
+  background-color: red;
+}
+
+.creativity img {
+  width: 100%;
+}
+
+.creativity-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  .creativity-text {
+    background-color: black;
+    color: white;
+  }
+}
+
+#middle-navbar .container {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-border {
+  border-bottom: 3px solid lightgray;
+}
+
+.card-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.card-button {
+  width: 100px;
+  font-size: 12px;
+  border-radius: 50px;
+  border: 3px solid black;
+}
+
+.card-container {
+  margin-top: 30px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-col {
+  display: flex;
+  justify-content: center;
+}
+
+.included-header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.small {
+  font-size: 10px;
+}
+
+.included-img {
+  height: 50px;
+  width: 50px;
+  padding-right: 10px;
+}
+
+.included-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.questions-container {
+  background-color: black;
+  color: white;
+}
+
+.questions-col {
+  text-align: center;
+}
+
+.questions-header {
+  text-align: center;
+  padding: 10px;
+}
+
+.questions-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.questions-border {
+  background-color: red;
+  height: 10px;
+}
+
+.footer-col {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px 0 10px;
+  border-bottom: 2px solid lightgray;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-heading p {
+  font-weight: 700;
 }
