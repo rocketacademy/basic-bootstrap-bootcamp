@@ -6,13 +6,20 @@ body {
   height: fit-content;
 }
 
-.highlight-left {
-  background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg");
-
-  background-size: 70vw auto;
+#highlight-left {
+  background:url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg");
+  width:60vw;
+  height:40vh;
+  background-position:right center;
 }
+
+
 
 .sideMargin{
   margin:0;
   padding:0;
+}
+
+.highlight{
+  text-align:center;
 }
