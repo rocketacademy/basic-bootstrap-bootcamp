@@ -1,7 +1,17 @@
 body {
-  background-color:lightblue;
+  height: 1200px;
+  background-color: rgb(255, 0, 191);
+  background-image:linear-gradient(to bottom right, rgb(255, 0, 191), rgb(159, 51, 221) )
 }
 
+#navBar{
+  background-color: transparent;
+}
+
+.nav-item{
+  background-color: orange;
+  font-family: 'Rowdies', cursive;
+}
 
 #highlight-left {
   background:url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg");
@@ -10,11 +20,14 @@ body {
   background-position:right center;
 }
 
-.hightlight-right{
+.highlight-right{
   display: flex;
   justify-content: center;
 }
 
+.highlight-price{
+  background-color: orange;
+}
 
 .hpV{
   display: flex;
