@@ -1,3 +1,18 @@
-body{
-  background-color:pink;
+body {
+  background-color:lightblue;
+}
+
+.highlight {
+  height: fit-content;
+}
+
+.highlight-left {
+  background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg");
+
+  background-size: 70vw auto;
+}
+
+.sideMargin{
+  margin:0;
+  padding:0;
 }
