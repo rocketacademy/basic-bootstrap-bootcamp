@@ -21,6 +21,12 @@
 
     <link rel="stylesheet" href="styles.css" />
 
+    <!-- Google Rowdies font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+
+
     <title>CSS-Powered Restaurant</title>
   </head>
   <body>
@@ -66,28 +72,53 @@
       </nav>
       <p></p>
       <!-- Body Content -->
-      <div class="row">
+
+      <!-- Highlights Row -->
+      <div class="row mx-0 justify-content-between">
         <div class="col-auto" id="highlight-left">
-          <img src= id="highlight-left">
         </div>
 
-        <div class="col-auto highlight-right">
-          <div class="row highlight-price">
-            <div class="col-auto">
-              <div class="row highlight-price-value">22</div>
-              <div class="row highlight-price-item">Kombucha</div>
-            </div>
+        <div class="col-4 ps-3" id="highlight-right">
+          <div class="row border border-light highlight-price">
+              <div class="row hpV"><p></p>$1.99</div>
+              <div class="row hpI">Tacos<p></p></div>
           </div>
-          <div class="row highlight-price">
-            <div class="col-auto">
-              <div class="row highlight-price-value">999</div>
-              <div class="row highlight-price-item">Kombucha</div>
-            </div>
+          <p></p>
+          <div class="row border border-light highlight-price">
+              <div class="row hpV"><p></p>$3.99</div>
+              <div class="row hpI">Kombucha<p></p></div>
           </div>
         </div>
       </div>
-
       </div>
+      <p></p>
+      <!-- Categories-->
+    <div class= "catRw">
+      <span class="catCard">
+        <span class="catIcon">🌮</span>
+        <span class="catLabel">Tacos</span>
+        <span class="catDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.<p></p></span>
+      </span>
+      <span class="catCard">
+        <span class="catIcon">🍺</span>
+        <span class="catLabel">Beer</span>
+        <span class="catDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.<p></p></span>
+      </span>
+      <span class="catCard">
+        <span class="catIcon">🍷</span>
+        <span class="catLabel">Wine</span>
+        <span class="catDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.<p></p></span>
+      </span>
+      <span class="catCard">
+        <span class="catIcon">🎵</span>
+        <span class="catLabel">Music</span>
+        <span class="catDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.<p></p></span>
+      </span>
+    </div>
+
+
+
+
     </div>
 <!--     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
